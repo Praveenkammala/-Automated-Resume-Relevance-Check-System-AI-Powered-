@@ -54,6 +54,7 @@ To set up and run the application locally, follow these steps:
     The application requires an API key for the LLM. Set your Gemini API key as an environment variable in the same terminal session.
  # Set OpenAI API Key
  On Windows: set OPENAI_API_KEY="your_api_key_here"
+ 
  On macOS/Linux: export OPENAI_API_KEY="your_api_key_here"
 
 5.  **Run the application:**
