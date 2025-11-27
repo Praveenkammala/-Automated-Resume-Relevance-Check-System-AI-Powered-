@@ -52,8 +52,14 @@ To set up and run the application locally, follow these steps:
     ```
 4.  **Set your API key:**
     The application requires an API key for the LLM. Set your Gemini API key as an environment variable in the same terminal session.
-    * On Windows: `set GEMINI_API_KEY="your_api_key_here"`
-    * On macOS/Linux: `export GEMINI_API_KEY="your_api_key_here"`
+ # Set OpenAI API Key
+
+# Windows (CMD / PowerShell)
+set OPENAI_API_KEY="your_api_key_here"
+
+# macOS / Linux (bash / zsh)
+export OPENAI_API_KEY="your_api_key_here"
+
 5.  **Run the application:**
     ```bash
     streamlit run app_streamlit.py
